@@ -1,6 +1,7 @@
 #Nmap Changelog ($Id$); -*-text-*-
-
-o [GH#2541] UDP port scan (-sU) and version scan (-sV) now both use the same
+[2022-10-31] update mongodb probes; disable nmap-payloads bugs
+o 
+[GH#2541] UDP port scan (-sU) and version scan (-sV) now both use the same
   data source, nmap-service-probes, for data payloads. Previously, the
   nmap-payloads file was used for port scan. Port scan responses will be used
   to kick-start the version matching process. [Daniel Miller]
